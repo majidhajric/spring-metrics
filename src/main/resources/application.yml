@@ -2,7 +2,7 @@ management:
   endpoints:
     web:
       exposure:
-        include: health, metrics, loggers
+        include: health, metrics, loggers, prometheus
 
 springdoc:
   show-actuator: true
